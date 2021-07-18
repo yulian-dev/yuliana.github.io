@@ -1,428 +1,1377 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <title>Kalinda IT Premium IT Services</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Kalinda IT Premium IT Services</title>
     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- STYLESHEET CSS FILES -->
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/logo-icon.png">
+
+    <!-- all css here -->
+
+    <!-- bootstrap v3.3.6 css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- font-awesome css -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/nivo-lightbox.css">
-    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- magnific css -->
+    <link rel="stylesheet" href="css/magnific.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- modernizr css -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+<body>
 
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-<!-- preloader section -->
-<div class="preloader">
-    <div class="sk-spinner sk-spinner-rotating-plane"></div>
+<div id="preloader"></div>
+<header class="header-one">
+    <!-- header-area start -->
+    <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="row">
+                        <!-- logo start -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="logo">
+                                <!-- Brand -->
+                                <a class="navbar-brand page-scroll white-logo" href="index.html">
+                                    <img src="img/logo/logo3.png" alt="">
+                                </a>
+                                <a class="navbar-brand page-scroll black-logo" href="index.html">
+                                    <img src="img/logo/logo.png" alt="">
+                                </a>
+                            </div>
+                            <!-- logo end -->
+                        </div>
+                        <div class="col-md-9 col-sm-9">
+                            <div class="header-right-link">
+                                <!-- search option end -->
+                                <a class="s-menu" href="contact.html">Contact Us</a>
+                            </div>
+                            <!-- mainmenu start -->
+                            <nav class="navbar navbar-default">
+                                <div class="collapse navbar-collapse" id="navbar-example">
+                                    <div class="main-menu">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a class="pages" href="index.html"><span>H</span>ome</a></li>
+                                            <li><a href="about.html"><span>A</span>bout us</a></li>
+                                            <li><a href="native.html"><span>O</span>ur Indigenous Commitment</a></li>
+                                            <li><a class="pages" href="services.html"><span>S</span>ervices</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="managed-services.html">Managed Services</a></li>
+                                                    <li><a href="data-cloud-services.html">Data Center and Cloud</a></li>
+                                                    <li><a href="security-services.html">Security</a></li>
+                                                    <li><a href="consulting-services.html">Consulting</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="partners.html"><span>P</span>artners</a></li>
+                                            <!--                                            <li><a class="pages" href="#">Pages</a>-->
+                                            <!--                                                <ul class="sub-menu">-->
+                                            <!--                                                    <li><a href="team.html">team</a></li>-->
+                                            <!--                                                    <li><a href="faq.html">FAQ</a></li>-->
+                                            <!--                                                    <li><a href="review.html">Reviews</a></li>-->
+                                            <!--                                                    <li><a href="login.html">Login</a></li>-->
+                                            <!--                                                    <li><a href="signup.html">Register</a></li>-->
+                                            <!--                                                </ul>-->
+                                            <!--                                            </li>-->
+                                            <!--                                            <li><a class="pages" href="#">Blog</a>-->
+                                            <!--                                                <ul class="sub-menu">-->
+                                            <!--                                                    <li><a href="blog.html">Blog grid</a></li>-->
+                                            <!--                                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>-->
+                                            <!--                                                    <li><a href="blog-details.html">Blog Details</a></li>-->
+                                            <!--                                                </ul>-->
+                                            <!--                                            </li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- mainmenu end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area end -->
+    <!-- mobile-menu-area start -->
+    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt=""/></a>
+                        </div>
+                        <nav id="dropdown">
+                            <ul>
+                                <li><a class="pages" href="index.html"><span>H</span>ome</a></li>
+                                <li><a href="about.html"><span>A</span>bout us</a></li>
+                                <li><a href="native.html"><span>O</span>ur Indigenous Commitment</a></li>
+                                <li><a class="pages" href="services.html"><span>S</span>ervices</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="managed-services.html">Managed Services</a></li>
+                                        <li><a href="data-cloud-services.html">Data Center and Cloud</a></li>
+                                        <li><a href="security-services.html">Security</a></li>
+                                        <li><a href="consulting-services.html">Consulting</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="partners.html"><span>P</span>artners</a></li>
+                                <!--                                            <li><a class="pages" href="#">Pages</a>-->
+                                <!--                                                <ul class="sub-menu">-->
+                                <!--                                                    <li><a href="team.html">team</a></li>-->
+                                <!--                                                    <li><a href="faq.html">FAQ</a></li>-->
+                                <!--                                                    <li><a href="review.html">Reviews</a></li>-->
+                                <!--                                                    <li><a href="login.html">Login</a></li>-->
+                                <!--                                                    <li><a href="signup.html">Register</a></li>-->
+                                <!--                                                </ul>-->
+                                <!--                                            </li>-->
+                                <!--                                            <li><a class="pages" href="#">Blog</a>-->
+                                <!--                                                <ul class="sub-menu">-->
+                                <!--                                                    <li><a href="blog.html">Blog grid</a></li>-->
+                                <!--                                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>-->
+                                <!--                                                    <li><a href="blog-details.html">Blog Details</a></li>-->
+                                <!--                                                </ul>-->
+                                <!--                                            </li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile-menu-area end -->
+</header>
+<!-- header end -->
+<!-- Start Intro Area -->
+<div class="slide-area fix" data-stellar-background-ratio="0.6">
+    <div class="display-table">
+        <div class="display-table-cell">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!-- Start Slider content -->
+                        <div class="slide-content text-center">
+                            <h2 class="title2">Welcome to Kalinda IT</h2>
+                            <h2 class="title2">The First Nation Tech Company</h2>
+                            <p>Proudly recognised as an Indigenous Business, Kalinda IT is a technology solutions and
+                                service provider.</p>
+                            <!--     Button and Watch video       -->
+                            <!--                            <div class="layer-1-3">-->
+                            <!--                                <a href="#" class="ready-btn left-btn">Get started</a>-->
+                            <!--                                <div class="video-content">-->
+                            <!--                                    <a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">-->
+                            <!--                                        <i class="fa fa-play"></i>-->
+                            <!--                                        <span>watch video</span>-->
+                            <!--                                    </a>-->
+                            <!--                                </div>-->
+                            <!--                            </div>-->
+                        </div>
+                        <!-- End Slider content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-<!-- navigation section -->
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container-inner">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-        </button>
-        <div class="navbar-header">
-            <img class="navbar-logo" src="images/logo/03.png">
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home" class="smoothScroll"><span>H</span>ome</a></li>
-                <li><a href="about.html" class="smoothScroll"><span>A</span>bout us</a></li>
-                <li><a href="commitment.html" class="smoothScroll"><span>O</span>ur Indigenous Commitment</a></li>
-                <li><a href="#work" class="smoothScroll"><span>S</span>ervices</a></li>
-                <li><a href="#team" class="smoothScroll"><span>P</span>artners</a></li>
-            </ul>
-        </div>
-        <button href="#contact" class="btn-contact">Contact Us</button>
-    </div>
-</div>
-
-<!-- home section -->
-<section id="home">
-    <div class="container home-inner">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h1 class="wow bounceInDown rotate">Welcome to Kalinda IT</h1>
-                <h2 class="wow bounce">The First Nation Tech Company</h2>
-                <p>Proudly recognised as an Indigenous Business, Kalinda IT is a technology solutions and service
-                    provider.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="btn-learn">
-    <a href="#intro" class="smoothScroll">learn more</a>
-</section>
-
-<!-- intro section -->
-<section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="title">
-                <h1>We believe constant innovation around IT services can help you <strong>simplify, save money and
-                    deliver value to your customer</strong></h1>
-                <hr>
-                <p>We focus on delivering a full range of services including systems integration, managed services,
-                    custom platform builds, DC management and software application development.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- work section -->
-<section id="work">
-    <div class="container">
-        <div class="row">
-            <div class="work-cards">
-                <div class="col-md-3 col-sm-3 work-item">
-                    <div class="bg-gray">
-                        <h3>Managed IT Services</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
-                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
-                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 work-item">
-                    <div class="bg-yellow">
-                        <h3>Security</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
-                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
-                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 work-item">
-                    <div class="bg-white">
-                        <h3>Storage & Management</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
-                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
-                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 work-item">
-                    <div class="bg-blue">
-                        <h3>Technology Consulting Services</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum
-                            mollis, eros dolor sollicitudin nisi, eu tincidunt justo nunc et est. Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit. Mauris suscipit, est rutrum dictum mollis, eros dolor
-                            sollicitudin nisi, eu tincidunt justo nunc et est.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- progress section -->
-<section id="progress">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
-                <h2>We deliver results and are obsessed with excellence</h2>
-                <hr>
-                <p>As our business thrives on a results-driven culture, it has allowed a culture of pure excellence to
-                    be achieved across everything we do. We work relentlessly until we deliver the results we promised,
-                    holding each other accountable to achieving your goals and objectives.</p>
-                <p>We believe perfection is the enemy of progress, and that excellence is the bar - not perfection.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- turbocharge section -->
-<section id="turbocharge">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 title">
-                <h2>What we do</h2>
-                <hr>
-                <h4>Are you tired of the same old service?</h4>
-                <p>The Kalinda IT Team don’t just sit on the sideline closing tickets, we focus on ensuring that our
-                    clients TURBOCHARGE their business.</p>
-                <p>If you want outstanding support with:</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="col-md-2 col-sm-2 bg-black">
-                    <h4>Support</h4>
-                    <h4>Desk</h4>
-                </div>
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <h4>Dedicated Service</h4>
-                    <h4>Delivery Manager</h4>
-                </div>
-                <div class="col-md-2 col-sm-2 bg-black">
-                    <h4>Advanced</h4>
-                    <h4>Security</h4>
-                </div>
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <h4>Server</h4>
-                    <h4>Back ups</h4>
-                </div>
-                <div class="col-md-2 col-sm-2 bg-black">
-                    <h4>Quarterly</h4>
-                    <h4>Reviews</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- team section -->
-<!--<section id="team">-->
+<!-- End Intro Area -->
+<!-- Start Count area -->
+<!--<div class="counter-area fix area-padding-2">-->
 <!--    <div class="container">-->
+<!--        &lt;!&ndash; Start counter Area &ndash;&gt;-->
 <!--        <div class="row">-->
-<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">-->
-<!--                <h2>Our team</h2>-->
-<!--                <hr>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
-<!--                    laoree.</p>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-4 col-xs-6 wow fadeIn" data-wow-delay="0.9s">-->
-<!--                <img src="images/team1.jpg" class="img-responsive" alt="team img">-->
-<!--                <div class="team-des">-->
-<!--                    <h4>Tracy</h4>-->
-<!--                    <h3>Designer</h3>-->
+<!--            <div class="fun-content">-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    &lt;!&ndash; fun_text  &ndash;&gt;-->
+<!--                    <div class="fun_text">-->
+<!--                        <span class="counter-icon"><i class="flaticon-035-savings"></i></span>-->
+<!--                        <span class="counter">$5974544</span>-->
+<!--                        <h4>Total Deposited</h4>-->
+<!--                    </div>-->
 <!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-4 col-xs-6 wow fadeIn" data-wow-delay="1.3s">-->
-<!--                <img src="images/team2.jpg" class="img-responsive" alt="team img">-->
-<!--                <div class="team-des">-->
-<!--                    <h4>Linda</h4>-->
-<!--                    <h3>Manager</h3>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    &lt;!&ndash; fun_text  &ndash;&gt;-->
+<!--                    <div class="fun_text">-->
+<!--                        <span class="counter-icon"><i class="flaticon-034-reward"></i></span>-->
+<!--                        <span class="counter">2209</span>-->
+<!--                        <h4>Total Members</h4>-->
+<!--                    </div>-->
 <!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-4 col-xs-6 wow fadeIn" data-wow-delay="1.6s">-->
-<!--                <img src="images/team3.jpg" class="img-responsive" alt="team img">-->
-<!--                <div class="team-des">-->
-<!--                    <h4>Mary</h4>-->
-<!--                    <h3>Developer</h3>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    &lt;!&ndash; fun_text  &ndash;&gt;-->
+<!--                    <div class="fun_text">-->
+<!--                        <span class="counter-icon"><i class="flaticon-016-graph"></i></span>-->
+<!--                        <span class="counter">$3974544</span>-->
+<!--                        <h4>Total Payments</h4>-->
+<!--                    </div>-->
 <!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!-- portfolio section -->
-<!--<div id="portfolio">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">-->
-<!--                <h2>Portfolio</h2>-->
-<!--                <hr>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
-<!--                    laoree.</p>-->
-<!--            </div>-->
-<!--            <div class="col-md-12 col-sm-12"></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img1.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img1.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img2.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img2.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img3.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img3.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img4.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img4.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img5.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img5.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img6.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img6.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img7.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img7.jpg" alt="portfolio img"></a></div>-->
-<!--            <div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s"><a href="images/portfolio-img8.jpg"-->
-<!--                                                                               data-lightbox-gallery="portfolio-gallery"><img-->
-<!--                    src="images/portfolio-img8.jpg" alt="portfolio img"></a></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<!-- price section -->
-<!--<div id="price">-->
-<!--    <div class="container">-->
-<!--        <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">-->
-<!--            <h2>Our Plans</h2>-->
-<!--            <hr>-->
-<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
-<!--                laoree.</p>-->
-<!--        </div>-->
-<!--        <div class="col-md-4 col-sm-6">-->
-<!--            <div class="plan wow bounceIn" data-wow-delay="0.3s">-->
-<!--                <div class="plan_title">-->
-<!--                    <h3>Basic</h3>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    &lt;!&ndash; fun_text  &ndash;&gt;-->
+<!--                    <div class="fun_text">-->
+<!--                        <span class="counter-icon"><i class="flaticon-043-world"></i></span>-->
+<!--                        <span class="counter">80</span>-->
+<!--                        <h4>World Country</h4>-->
+<!--                    </div>-->
 <!--                </div>-->
-<!--                <div class="plan_sub_title">-->
-<!--                    <h2>$ 25</h2>-->
-<!--                    <small>Per month</small></div>-->
-<!--                <ul>-->
-<!--                    <li>5 ACCOUNTS</li>-->
-<!--                    <li>20 GB SPACE</li>-->
-<!--                    <li>20 BASIC THEMES</li>-->
-<!--                </ul>-->
-<!--                <button class="btn btn-warning">Get started</button>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="col-md-4 col-sm-6">-->
-<!--            <div class="plan wow bounceIn" data-wow-delay="0.6s">-->
-<!--                <div class="plan_title">-->
-<!--                    <h3>Business</h3>-->
-<!--                </div>-->
-<!--                <div class="plan_sub_title">-->
-<!--                    <h2>$ 50</h2>-->
-<!--                    <small>per month</small></div>-->
-<!--                <ul>-->
-<!--                    <li>10 ACCOUNTS</li>-->
-<!--                    <li>50 GB SPACE</li>-->
-<!--                    <li>30 PRO THEMES</li>-->
-<!--                </ul>-->
-<!--                <button class="btn btn-warning">Get started</button>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="col-md-4 col-sm-6">-->
-<!--            <div class="plan wow bounceIn" data-wow-delay="0.9s">-->
-<!--                <div class="plan_title">-->
-<!--                    <h3>Professional</h3>-->
-<!--                </div>-->
-<!--                <div class="plan_sub_title">-->
-<!--                    <h2>$ 75</h2>-->
-<!--                    <small>per month</small></div>-->
-<!--                <ul>-->
-<!--                    <li>20 ACCOUNTS</li>-->
-<!--                    <li>100 GB SPACE</li>-->
-<!--                    <li>60 PRO THEMES</li>-->
-<!--                </ul>-->
-<!--                <button class="btn btn-warning">Get started</button>-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-
-<!-- contact section -->
-<!--<section id="contact">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 title">-->
-<!--                <h2>Contact Us</h2>-->
-<!--                <hr>-->
-<!--                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut-->
-<!--                    laoree.</p>-->
-<!--            </div>-->
-<!--            <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp"-->
-<!--                 data-wow-delay="0.9s">-->
-<!--                <form action="#" method="post">-->
-<!--                    <input type="text" class="form-control" placeholder="Name">-->
-<!--                    <input type="email" class="form-control" placeholder="Email">-->
-<!--                    <textarea class="form-control" placeholder="Message" rows="6"></textarea>-->
-<!--                    <input type="submit" class="form-control" value="SEND EMAIL">-->
-<!--                </form>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!-- google map section -->
-<!--<div class="google_map">-->
-<!--    <div id="map-canvas"></div>-->
-<!--</div>-->
-
-<!-- footer section -->
-<footer>
+<!-- End Count area -->
+<!-- Start Description area -->
+<div class="description-area bg-color area-padding-2">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <div class="widget">
-                        <div class="widget-text">
-                            <ul>
-                                <li><img class="footer-logo" src="images/logo/01.png" alt="Kalinda IT"></li>
-                                <li>Copyright © 2021 Kalinda IT</li>
+                <div class="section-headline text-center">
+                    <h1>We believe constant innovation around IT services can help you <strong>simplify, save money and
+                        deliver value to your customer</strong></h1>
+                    <hr>
+                    <p>We focus on delivering a full range of services including systems integration, managed services,
+                        custom platform builds, DC management and software application development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Description area -->
+
+<!-- Start Support-service Area -->
+<div class="support-service-area fix area-padding-2">
+    <div class="container">
+        <div class="row">
+            <div class="support-all">
+                <!-- Start About -->
+                <div class="col-md-6 col-sm-6 col-xs-12 support-item">
+                    <div class="support-services wow ">
+                        <div class="support-content">
+                            <h4>Managed IT Services</h4>
+                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to
+                                define their new business objectives and then create</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start About -->
+                <div class="col-md-6 col-sm-6 col-xs-12 support-item">
+                    <div class="support-services ">
+                        <div class="support-content">
+                            <h4>Security</h4>
+                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to
+                                define their new business objectives and then create</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start services -->
+                <div class="col-md-6 col-sm-6 col-xs-12 support-item">
+                    <div class="support-services ">
+                        <div class="support-content">
+                            <h4>Storage & Management</h4>
+                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to
+                                define their new business objectives and then create</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start services -->
+                <div class="col-md-6 col-sm-6 col-xs-12 support-item">
+                    <div class="support-services">
+                        <div class="support-content">
+                            <h4>Technology Consulting Services</h4>
+                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to
+                                define their new business objectives and then create</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Support-service Area -->
+
+<!-- Start Description area -->
+<div class="description-area bg-color area-padding-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                    <h2>We deliver results and are obsessed with excellence</h2>
+                    <hr>
+                    <p>As our business thrives on a results-driven culture, it has allowed a culture of pure excellence
+                        to be achieved across everything we do. We work relentlessly until we deliver the results we
+                        promised, holding each other accountable to achieving your goals and objectives.</p>
+                    <br>
+                    <p>We believe perfection is the enemy of progress, and that excellence is the bar - not
+                        perfection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Description area -->
+
+<!-- Start Banner Area -->
+<div class="banner-area area-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-all area-80 text-center">
+                    <div class="banner-content">
+                        <h3>What we do</h3>
+                        <h5>Are you tired of the same old service?</h5>
+                        <p>The Kalinda IT Team don’t just sit on the sideline closing tickets, we focus on ensuring that
+                            our clients TURBOCHARGE their business.</p>
+                        <a class="banner-btn" href="#">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Banner Area -->
+
+<!-- Start Invest area -->
+<!--<div class="invest-area bg-color area-padding-2">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>The best investment plan</h3>-->
+<!--                    <p>Help agencies to define their new business objectives and then create professional software.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="pricing-content">-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    <div class="pri_table_list">-->
+<!--                        <div class="top-price-inner">-->
+<!--                            <div class="rates">-->
+<!--                                <span class="prices">5%</span><span class="users">Daily</span>-->
+<!--                            </div>-->
+<!--                            <span class="per-day">10 days</span>-->
+<!--                        </div>-->
+<!--                        <ol class="pricing-text">-->
+<!--                            <li class="check">Minimam Invest : $100</li>-->
+<!--                            <li class="check">Maximam Invest : $1000</li>-->
+<!--                            <li class="check">Avarage Monthly : 50%</li>-->
+<!--                        </ol>-->
+<!--                        <div class="price-btn blue">-->
+<!--                            <a class="blue" href="#">Deposite</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    <div class="pri_table_list">-->
+<!--                        <div class="top-price-inner">-->
+<!--                            <div class="rates">-->
+<!--                                <span class="prices">15%</span><span class="users">Daily</span>-->
+<!--                            </div>-->
+<!--                            <span class="per-day">30 days</span>-->
+<!--                        </div>-->
+<!--                        <ol class="pricing-text">-->
+<!--                            <li class="check">Minimam Invest : $1000</li>-->
+<!--                            <li class="check">Maximam Invest : $10000</li>-->
+<!--                            <li class="check">Avarage Monthly :100%</li>-->
+<!--                        </ol>-->
+<!--                        <div class="price-btn blue">-->
+<!--                            <a class="blue" href="#">Deposite</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    <div class="pri_table_list">-->
+<!--                        <div class="top-price-inner">-->
+<!--                            <span class="base">Popular</span>-->
+<!--                            <div class="rates">-->
+<!--                                <span class="prices">50%</span><span class="users">Daily</span>-->
+<!--                            </div>-->
+<!--                            <span class="per-day">45 days</span>-->
+<!--                        </div>-->
+<!--                        <ol class="pricing-text">-->
+<!--                            <li class="check">Minimam Invest : $1000</li>-->
+<!--                            <li class="check">Maximam Invest : $50000</li>-->
+<!--                            <li class="check">Avarage Monthly : 200%</li>-->
+<!--                        </ol>-->
+<!--                        <div class="price-btn blue">-->
+<!--                            <a class="blue" href="#">Deposite</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-3 col-sm-6 col-xs-12">-->
+<!--                    <div class="pri_table_list">-->
+<!--                        <span class="base">Best sale</span>-->
+<!--                        <div class="top-price-inner">-->
+<!--                            <div class="rates">-->
+<!--                                <span class="prices">100%</span><span class="users">Daily</span>-->
+<!--                            </div>-->
+<!--                            <span class="per-day">60 days</span>-->
+<!--                        </div>-->
+<!--                        <ol class="pricing-text">-->
+<!--                            <li class="check">Minimam Invest : $1000</li>-->
+<!--                            <li class="check">Maximam Invest : $50000</li>-->
+<!--                            <li class="check">Avarage Monthly : 250%</li>-->
+<!--                        </ol>-->
+<!--                        <div class="price-btn blue">-->
+<!--                            <a class="blue" href="#">Deposite</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End Invest area -->
+<!-- Start Support-service Area -->
+<!--<div class="support-service-area fix area-padding-2">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>Why choose investment plan</h3>-->
+<!--                    <p>Help agencies to define their new business objectives and then create professional software.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="support-all">-->
+<!--                &lt;!&ndash; Start About &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services wow ">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-023-management"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Expert management</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Start About &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services ">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-036-security"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Secure investment</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Start services &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services ">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-003-approve"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Registered company</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Start services &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-042-wallet"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Instant withdrawal</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Start services &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services ">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-032-report"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Verified security</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; Start services &ndash;&gt;-->
+<!--                <div class="col-md-6 col-sm-6 col-xs-12">-->
+<!--                    <div class="support-services">-->
+<!--                        <a class="support-images" href="#"><i class="flaticon-024-megaphone"></i></a>-->
+<!--                        <div class="support-content">-->
+<!--                            <h4>Live customer support</h4>-->
+<!--                            <p>Replacing a maintains the amount of lines. When replacing a selection. help agencies to-->
+<!--                                define their new business objectives and then create</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End Support-service Area -->
+<!-- Start Work proses Area -->
+<!--<div class="work-proses fix bg-color area-padding-2">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>Referral bonus level</h3>-->
+<!--                    <p>Help agencies to define their new business objectives and then create professional software.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="row">-->
+<!--                    <div class="work-proses-inner text-center">-->
+<!--                        <div class="col-md-4 col-sm-4 col-xs-12">-->
+<!--                            <div class="single-proses">-->
+<!--                                <div class="proses-content">-->
+<!--                                    <div class="proses-icon point-blue">-->
+<!--                                        <span class="point-view">01</span>-->
+<!--                                        <a href="#"><i class="ti-briefcase"></i></a>-->
+<!--                                    </div>-->
+<!--                                    <div class="proses-text">-->
+<!--                                        <h4>Level 01 instant 30% commission</h4>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End column &ndash;&gt;-->
+<!--                        <div class="col-md-4 col-sm-4 col-xs-12">-->
+<!--                            <div class="single-proses">-->
+<!--                                <div class="proses-content">-->
+<!--                                    <div class="proses-icon point-orange">-->
+<!--                                        <span class="point-view">02</span>-->
+<!--                                        <a href="#"><i class="ti-layers"></i></a>-->
+<!--                                    </div>-->
+<!--                                    <div class="proses-text">-->
+<!--                                        <h4>Level 02 instant 20% commission</h4>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End column &ndash;&gt;-->
+<!--                        <div class="col-md-4 col-sm-4 col-xs-12">-->
+<!--                            <div class="single-proses last-item">-->
+<!--                                <div class="proses-content">-->
+<!--                                    <div class="proses-icon point-green">-->
+<!--                                        <span class="point-view">03</span>-->
+<!--                                        <a href="#"><i class="ti-bar-chart-alt"></i></a>-->
+<!--                                    </div>-->
+<!--                                    <div class="proses-text">-->
+<!--                                        <h4>Level 03 instant 10% commission</h4>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End column &ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End Work proses Area -->
+<!--Start payment-history area -->
+<!--<div class="payment-history-area bg-color fix area-padding-2">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>Deposite and withdrawals history</h3>-->
+<!--                    <p>Help agencies to define their new business objectives and then create professional software.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="deposite-content">-->
+<!--                    <div class="diposite-box">-->
+<!--                        <h4>Last deposite</h4>-->
+<!--                        <span><i class="flaticon-005-savings"></i></span>-->
+<!--                        <div class="deposite-table">-->
+<!--                            <table>-->
+<!--                                <tr>-->
+<!--                                    <th>Name</th>-->
+<!--                                    <th>Date</th>-->
+<!--                                    <th>Amount</th>-->
+<!--                                    <th>Currency</th>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Admond sayhel</td>-->
+<!--                                    <td>Jan 02, 2020</td>-->
+<!--                                    <td>$1000</td>-->
+<!--                                    <td>Bitcoin</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Jonshon</td>-->
+<!--                                    <td>Dec 12, 2019</td>-->
+<!--                                    <td>$5000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Hopper</td>-->
+<!--                                    <td>Dec 22, 2019</td>-->
+<!--                                    <td>$4000</td>-->
+<!--                                    <td>Ripple</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Admond sayhel</td>-->
+<!--                                    <td>Jan 02, 2020</td>-->
+<!--                                    <td>$3000</td>-->
+<!--                                    <td>Bitcoin</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Anjel july</td>-->
+<!--                                    <td>Jan 05, 2020</td>-->
+<!--                                    <td>$500</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Lagisha</td>-->
+<!--                                    <td>Jan 12, 2020</td>-->
+<!--                                    <td>$5000</td>-->
+<!--                                    <td>Bitcoin</td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="deposite-content">-->
+<!--                    <div class="diposite-box">-->
+<!--                        <h4>Last withdrawals</h4>-->
+<!--                        <span><i class="flaticon-042-wallet"></i></span>-->
+<!--                        <div class="deposite-table">-->
+<!--                            <table>-->
+<!--                                <tr>-->
+<!--                                    <th>Name</th>-->
+<!--                                    <th>Date</th>-->
+<!--                                    <th>Amount</th>-->
+<!--                                    <th>Currency</th>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Arnold</td>-->
+<!--                                    <td>Jan 04, 2020</td>-->
+<!--                                    <td>$1000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Jhon Abra</td>-->
+<!--                                    <td>Jan 07, 2020</td>-->
+<!--                                    <td>$6000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Lanisha</td>-->
+<!--                                    <td>Jan 13, 2020</td>-->
+<!--                                    <td>$5000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Gongales</td>-->
+<!--                                    <td>Jan 12, 2020</td>-->
+<!--                                    <td>$2000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Admond sayhel</td>-->
+<!--                                    <td>Jan 10, 2020</td>-->
+<!--                                    <td>$1000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td>Remond</td>-->
+<!--                                    <td>Jan 02, 2020</td>-->
+<!--                                    <td>$3000</td>-->
+<!--                                    <td>USD</td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End payment-history area -->
+<!-- Start Banner Area -->
+<!--<div class="banner-area area-padding">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="banner-all area-80 text-center">-->
+<!--                    <div class="banner-content">-->
+<!--                        <h3>Our investment plan world wide business relations for development</h3>-->
+<!--                        <a class="banner-btn" href="#">Sign up now</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End Banner Area -->
+<!-- Start Blog Area-->
+<!--<div class="blog-area fix bg-color area-padding-2">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>Global investment plan news</h3>-->
+<!--                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="blog-grid home-blog">-->
+<!--                &lt;!&ndash; Start single blog &ndash;&gt;-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b1.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                            <i class="fa fa-calendar"></i>-->
+<!--                                            20 july, 2019-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            13-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>Creative design clients response is better</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End single blog &ndash;&gt;-->
+<!--                &lt;!&ndash; Start single blog &ndash;&gt;-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                       <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                           <i class="fa fa-calendar"></i>-->
+<!--                                            13 may, 2018-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            16-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>Web development is a best work in future world</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b2.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b3.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                           <i class="fa fa-calendar"></i>-->
+<!--                                            24 april, 2019-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            07-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>You can trust me and business with together</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End single blog &ndash;&gt;-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                           <i class="fa fa-calendar"></i>-->
+<!--                                            28 june, 2019-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            32-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>business man want to be benifit any way</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b4.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End single blog &ndash;&gt;-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b5.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                           <i class="fa fa-calendar"></i>-->
+<!--                                            28 june, 2019-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            32-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>business man want to be benifit any way</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End single blog &ndash;&gt;-->
+<!--                <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--                    <div class="single-blog">-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="blog-meta">-->
+<!--                                        <span class="admin-type">-->
+<!--                                            <i class="fa fa-user"></i>-->
+<!--                                            Admin-->
+<!--                                        </span>-->
+<!--                                <span class="date-type">-->
+<!--                                           <i class="fa fa-calendar"></i>-->
+<!--                                            28 june, 2019-->
+<!--                                        </span>-->
+<!--                                <span class="comments-type">-->
+<!--                                            <i class="fa fa-comment-o"></i>-->
+<!--                                            32-->
+<!--                                        </span>-->
+<!--                            </div>-->
+<!--                            <a href="#">-->
+<!--                                <h4>business man want to be benifit any way</h4>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="blog-image">-->
+<!--                            <a class="image-scale" href="#">-->
+<!--                                <img src="img/blog/b6.jpg" alt="">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; End single blog &ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; End row &ndash;&gt;-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End Blog Area-->
+<!-- Start reviews Area -->
+<!--<div class="reviews-area fix area-padding">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="reviews-top">-->
+<!--                <div class="col-md-5 col-sm-5 col-xs-12">-->
+<!--                    <div class="testimonial-inner">-->
+<!--                        <div class="review-head">-->
+<!--                            <h3>Our customer say about our company work</h3>-->
+<!--                            <p>The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that-->
+<!--                                many DTP programmes can generate dummy. The phrasal sequence of the Lorem Ipsum text is-->
+<!--                                now so widespread and commonplace that many DTP programmes can generate dummy</p>-->
+<!--                            <a class="reviews-btn" href="review.html">More reviews</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-7 col-sm-7 col-xs-12">-->
+<!--                    <div class="reviews-content">-->
+<!--                        &lt;!&ndash; start testimonial carousel &ndash;&gt;-->
+<!--                        <div class="testimonial-carousel item-indicator">-->
+<!--                            <div class="single-testi">-->
+<!--                                <div class="testi-text">-->
+<!--                                    <div class="clients-text">-->
+<!--                                        <div class="client-rating">-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                        </div>-->
+<!--                                        <p>When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                            maintains the amount of lines. When replacing a selection. help-->
+<!--                                            agencies.</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="testi-img ">-->
+<!--                                        <img src="img/review/1.jpg" alt="">-->
+<!--                                        <div class="guest-details">-->
+<!--                                            <h4>Hamilton</h4>-->
+<!--                                            <span class="guest-rev">Clients - <a href="#">General customer</a></span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; End single item &ndash;&gt;-->
+<!--                            <div class="single-testi">-->
+<!--                                <div class="testi-text">-->
+<!--                                    <div class="clients-text">-->
+<!--                                        <div class="client-rating">-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                        </div>-->
+<!--                                        <p>When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                            maintains the amount of lines. When replacing a selection. help-->
+<!--                                            agencies.</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="testi-img ">-->
+<!--                                        <img src="img/review/2.jpg" alt="">-->
+<!--                                        <div class="guest-details">-->
+<!--                                            <h4>Angel lima</h4>-->
+<!--                                            <span class="guest-rev">Clients - <a href="#">General customer</a></span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; End single item &ndash;&gt;-->
+<!--                            <div class="single-testi">-->
+<!--                                <div class="testi-text">-->
+<!--                                    <div class="clients-text">-->
+<!--                                        <div class="client-rating">-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                        </div>-->
+<!--                                        <p>When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                            maintains the amount of lines. When replacing a selection. help-->
+<!--                                            agencies.</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="testi-img ">-->
+<!--                                        <img src="img/review/3.jpg" alt="">-->
+<!--                                        <div class="guest-details">-->
+<!--                                            <h4>Arthur Doil</h4>-->
+<!--                                            <span class="guest-rev">Clients - <a href="#">General customer</a></span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; End single item &ndash;&gt;-->
+<!--                            <div class="single-testi">-->
+<!--                                <div class="testi-text">-->
+<!--                                    <div class="clients-text">-->
+<!--                                        <div class="client-rating">-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                            <a href="#"><i class="ti-star"></i></a>-->
+<!--                                        </div>-->
+<!--                                        <p>When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                            maintains the amount of lines. When replacing a selection. help-->
+<!--                                            agencies.</p>-->
+<!--                                    </div>-->
+<!--                                    <div class="testi-img ">-->
+<!--                                        <img src="img/review/4.jpg" alt="">-->
+<!--                                        <div class="guest-details">-->
+<!--                                            <h4>Gabriel Hank</h4>-->
+<!--                                            <span class="guest-rev">Clients - <a href="#">General customer</a></span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; End single item &ndash;&gt;-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End reviews Area -->
+<!-- Start FAQ area -->
+<!--<div class="faq-area bg-color area-padding">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <div class="section-headline text-center">-->
+<!--                    <h3>Some important FAQ</h3>-->
+<!--                    <p>Help agencies to define their new business objectives and then create professional software.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            &lt;!&ndash; Start Column Start &ndash;&gt;-->
+<!--            <div class="col-md-7 col-sm-6 col-xs-12">-->
+<!--                <div class="company-faq">-->
+<!--                    <div class="faq-full">-->
+<!--                        <div class="faq-details">-->
+<!--                            <div class="panel-group" id="accordion">-->
+<!--                                &lt;!&ndash; Panel Default &ndash;&gt;-->
+<!--                                <div class="panel panel-default">-->
+<!--                                    <div class="panel-heading">-->
+<!--                                        <h4 class="check-title">-->
+<!--                                            <a data-toggle="collapse" class="active" data-parent="#accordion"-->
+<!--                                               href="#check1">-->
+<!--                                                <span class="acc-icons"></span>How to successful our mission and vision-->
+<!--                                            </a>-->
+<!--                                        </h4>-->
+<!--                                    </div>-->
+<!--                                    <div id="check1" class="panel-collapse collapse in">-->
+<!--                                        <div class="panel-body">-->
+<!--                                            <p>-->
+<!--                                                When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                                maintains the amount of lines. When replacing a selection of text within-->
+<!--                                                a single line, the amount of words is roughly being maintained.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; End Panel Default &ndash;&gt;-->
+<!--                                &lt;!&ndash; Panel Default &ndash;&gt;-->
+<!--                                <div class="panel panel-default">-->
+<!--                                    <div class="panel-heading">-->
+<!--                                        <h4 class="check-title">-->
+<!--                                            <a data-toggle="collapse" data-parent="#accordion" href="#check2">-->
+<!--                                                <span class="acc-icons"></span>Clients satisfaction make company Value.-->
+<!--                                            </a>-->
+<!--                                        </h4>-->
+<!--                                    </div>-->
+<!--                                    <div id="check2" class="panel-collapse collapse">-->
+<!--                                        <div class="panel-body">-->
+<!--                                            <p>-->
+<!--                                                When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                                maintains the amount of lines. When replacing a selection of text within-->
+<!--                                                a single line, the amount of words is roughly being maintained.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; End Panel Default &ndash;&gt;-->
+<!--                                &lt;!&ndash; Panel Default &ndash;&gt;-->
+<!--                                <div class="panel panel-default">-->
+<!--                                    <div class="panel-heading">-->
+<!--                                        <h4 class="check-title">-->
+<!--                                            <a data-toggle="collapse" data-parent="#accordion" href="#check3">-->
+<!--                                                <span class="acc-icons"></span>World class creative design and-->
+<!--                                                development firm.-->
+<!--                                            </a>-->
+<!--                                        </h4>-->
+<!--                                    </div>-->
+<!--                                    <div id="check3" class="panel-collapse collapse ">-->
+<!--                                        <div class="panel-body">-->
+<!--                                            <p>-->
+<!--                                                When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                                maintains the amount of lines. When replacing a selection of text within-->
+<!--                                                a single line, the amount of words is roughly being maintained.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; End Panel Default &ndash;&gt;-->
+<!--                                &lt;!&ndash; Panel Default &ndash;&gt;-->
+<!--                                <div class="panel panel-default">-->
+<!--                                    <div class="panel-heading">-->
+<!--                                        <h4 class="check-title">-->
+<!--                                            <a data-toggle="collapse" data-parent="#accordion" href="#check4">-->
+<!--                                                <span class="acc-icons"></span>We are the best online flatform-->
+<!--                                            </a>-->
+<!--                                        </h4>-->
+<!--                                    </div>-->
+<!--                                    <div id="check4" class="panel-collapse collapse ">-->
+<!--                                        <div class="panel-body">-->
+<!--                                            <p>-->
+<!--                                                When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                                maintains the amount of lines. When replacing a selection of text within-->
+<!--                                                a single line, the amount of words is roughly being maintained.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; End Panel Default &ndash;&gt;-->
+<!--                                &lt;!&ndash; Panel Default &ndash;&gt;-->
+<!--                                <div class="panel panel-default">-->
+<!--                                    <div class="panel-heading">-->
+<!--                                        <h4 class="check-title">-->
+<!--                                            <a data-toggle="collapse" data-parent="#accordion" href="#check5">-->
+<!--                                                <span class="acc-icons"></span>Clients satisfaction make company Value.-->
+<!--                                            </a>-->
+<!--                                        </h4>-->
+<!--                                    </div>-->
+<!--                                    <div id="check5" class="panel-collapse collapse">-->
+<!--                                        <div class="panel-body">-->
+<!--                                            <p>-->
+<!--                                                When replacing a multi-lined selection of text, the generated dummy text-->
+<!--                                                maintains the amount of lines. When replacing a selection of text within-->
+<!--                                                a single line, the amount of words is roughly being maintained.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                &lt;!&ndash; End Panel Default &ndash;&gt;-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; End FAQ &ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; End Column &ndash;&gt;-->
+<!--            <div class="col-md-5 col-sm-6 col-xs-12">-->
+<!--                <div class="faq-content">-->
+<!--                    <h4>Have a any qustion?</h4>-->
+<!--                    <div class="faq-quote">-->
+<!--                        <div class="row">-->
+<!--                            <form id="contactForm" method="POST"-->
+<!--                                  action="http://rockstheme.com/rocks/aievari-live/contact.php" class="contact-form">-->
+<!--                                <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                                    <input type="text" id="name" class="form-control" placeholder="Name" required-->
+<!--                                           data-error="Please enter your name">-->
+<!--                                    <div class="help-block with-errors"></div>-->
+<!--                                    <input type="email" class="email form-control" id="email" placeholder="Email"-->
+<!--                                           required data-error="Please enter your email">-->
+<!--                                    <div class="help-block with-errors"></div>-->
+<!--                                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject"-->
+<!--                                           required="" data-error="Please enter your message subject">-->
+<!--                                    <div class="help-block with-errors"></div>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                                    <textarea id="message" rows="7" placeholder="Massage" class="form-control" required-->
+<!--                                              data-error="Write your message"></textarea>-->
+<!--                                    <div class="help-block with-errors"></div>-->
+<!--                                    <button type="submit" id="submit" class="quote-btn">Submit</button>-->
+<!--                                    <div id="msgSubmit" class="h3 text-center hidden"></div>-->
+<!--                                    <div class="clearfix"></div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; End Column &ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!-- End FAQ area -->
+<!-- Start Footer Area -->
+<footer class="footer1">
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="footer-content logo-footer">
+                        <div class="footer-head">
+                            <div class="footer-logo">
+                                <a class="footer-black-logo" href="#"><img src="img/logo/logo.png" alt=""></a>
+                            </div>
+                            <p>
+                                Are you looking for professional advice for your new business. Are you looking for
+                                professional advice for your new business. Are you looking for professional advice for
+                                your new business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single footer -->
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="footer-content">
+                        <div class="footer-head">
+                            <h4>Services Link</h4>
+                            <ul class="footer-list">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services </a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Promotion</a></li>
+                                <li><a href="#">Transition</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                            <ul class="footer-list hidden-sm">
+                                <li><a href="#">Customer Care</a></li>
+                                <li><a href="#">Live chat</a></li>
+                                <li><a href="#">Notification</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Contact us </a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <div class="widget">
-                        <div class="widget-text">
-                            <ul>
-                                <li>&nbsp;</li>
-                                <li>Phone:
-                                    <a href="tel:61290913365" target="_blank" rel="nofollow">+61 2 9091 3365</a></li>
-                                <li>Email:
-                                    <a href="mailto:info@kalindait.com" rel="nofollow">info@kalindait.com</a></li>
-                                <li><a href="https://goo.gl/maps/A4FZhBxWxSbATVNe7" target="_blank" rel="nofollow">88
-                                    Phillip Street, Sydney, NSW, 2000, Australia</a></li>
-                            </ul>
+                <!-- end single footer -->
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="footer-content last-content">
+                        <div class="footer-head">
+                            <h4>Information</h4>
+                            <div class="footer-contacts">
+                                <p><span>Tel :</span> +61 2 9091 3365</p>
+                                <p><span>Email :</span> info@kalindait.com</p>
+                                <p><span>Location :</span> 88 Phillip Street, Sydney, NSW, 2000, Australia</p>
+                            </div>
+                            <div class="footer-icons">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <div class="widget">
-                        <div class="widget-text">
-                            <ul>
-                                <li><strong>Services</strong></li>
-                                <li>Cloud Adoption</li>
-                                <li>Digital Information</li>
-                                <li>Security & Identity</li>
-                                <li>Data & Insights</li>
-                            </ul>
-                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-area-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="copyright">
+                        <p>
+                            Copyright © 2021
+                            <a href="#">Kalinda IT</a> All Rights Reserved
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3 bg-red">
-                    <div class="widget">
-                        <div class="widget-text">
-                            <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#intro">About Us</a></li>
-                                <li><a href="#work">Services</a></li>
-                                <li><a href="#team">Partners</a></li>
-                                <li><strong>Contact Us</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--                <h2 class="wow fadeIn" data-wow-delay="0.9s">Follow Us</h2>-->
-                <!--                <ul class="social-icon">-->
-                <!--                    <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-behance wow bounceIn" data-wow-delay="0.9s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-dribbble wow bounceIn" data-wow-delay="0.9s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-android wow bounceIn" data-wow-delay="0.9s"></a></li>-->
-                <!--                    <li><a href="#" class="fa fa-phone wow bounceIn" data-wow-delay="0.9s"></a></li>-->
-                <!--                </ul>-->
             </div>
         </div>
     </div>
 </footer>
-<!-- JAVASCRIPT JS FILES -->
-<script src="js/jquery.js"></script>
+<!-- End Footer area -->
+
+<!-- all js here -->
+
+<!-- jquery latest version -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- bootstrap js -->
 <script src="js/bootstrap.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.parallax.js"></script>
+<!-- owl.carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- stellar js -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- magnific js -->
+<script src="js/magnific.min.js"></script>
+<!-- wow js -->
 <script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+<!-- meanmenu js -->
+<script src="js/jquery.meanmenu.js"></script>
+<!-- Form validator js -->
+<script src="js/form-validator.min.js"></script>
+<!-- plugins js -->
+<script src="js/plugins.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+
+<!--   EXTRA     -->
+
+<!-- Start top bar -->
+<!--            <div class="topbar-area fix hidden-xs">-->
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                       <div class="col-md-6 col-sm-6">-->
+<!--                           <div class="topbar-left">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#"><i class="fa fa-envelope"></i> info@aievari4.com</a></li>-->
+<!--                                    <li><a href="#"><i class="fa fa-phone"></i> +909-654-9805</a></li>-->
+<!--                                </ul>-->
+<!--							</div>-->
+<!--                        </div>-->
+<!--                        <div class=" col-md-6 col-sm-6">-->
+<!--                            <div class="topbar-right">-->
+<!--                                <div class="top-social">-->
+<!--                                    <ul>-->
+<!--                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+<!--                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--                                        <li><a href="#"><i class="fa fa-google"></i></a></li>-->
+<!--                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                                    </ul> -->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!-- End top bar -->
+
+<!--   Input for subscribe - footer    -->
+<!--<div class="subs-feilds">-->
+<!--    <div class="suscribe-input">-->
+<!--        <input type="email" class="email form-control width-80" id="sus_email"-->
+<!--               placeholder="Type Email">-->
+<!--        <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>-->
+<!--    </div>-->
+<!--</div>-->
+
+
 </body>
+
 </html>
