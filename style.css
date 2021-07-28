@@ -287,14 +287,10 @@ div#preloader {
     padding-bottom: 20px;
 }
 
-.section-headline h1 {
-    font-size: 48px;
-    line-height: 55px;
-}
-
+.section-headline h1,
 .section-headline h2 {
-    font-size: 43px;
-    line-height: 47px;
+    font-size: 40px;
+    line-height: 45px;
 }
 
 .section-headline p {
@@ -341,8 +337,8 @@ div#preloader {
 */
 
 .about-description-area .section-headline h2 {
-    font-size: 43px;
-    line-height: 47px;
+    font-size: 39px;
+    line-height: 44px;
 }
 
 .about-description-area .section-headline h5 {
@@ -1272,10 +1268,12 @@ span.users {
     font-size: 24px;
     text-transform: capitalize;
     color: #151b2c;
+    user-select: none;
 }
 
 .support-content p {
     margin-bottom: 10px;
+    user-select: none;
 }
 
 .support-link {
@@ -1407,6 +1405,11 @@ span.users {
     padding: 50px 30px 50px 50px;
     border-radius: 4px;
     overflow: scroll;
+}
+
+.self-content p,
+.self-content span {
+    user-select: none;
 }
 
 .talk-text {
@@ -2096,14 +2099,16 @@ span.users {
 .logo-footer .footer-head p {
     color: #ffffff;
     margin-bottom: 0px;
+    user-select: none;
 }
 
 .footer-head h4 {
-    color: #ffffff;
+    color: #d9b332;
     font-size: 22px;
     margin-bottom: 30px;
     text-transform: capitalize;
     font-weight: 300;
+    user-select: none;
 }
 
 .footer-icons ul li {
@@ -2162,6 +2167,16 @@ span.users {
 .footer-contacts p span {
     color: #d9b332;
     font-weight: 300;
+}
+
+.footer-contacts p a {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-contacts p a:hover {
+    color: #d9b332;
 }
 
 .subs-feilds {
@@ -2255,6 +2270,7 @@ span.users {
 .copyright > p {
     margin-bottom: 0;
     color: #ffffff;
+    user-select: none;
 }
 
 .copyright a {
@@ -2367,10 +2383,18 @@ span.users {
     background: url(img/background/about.jpg) no-repeat top center;
 }
 
+.about-page-area .breadcrumb {
+    padding: 160px 0px 160px;
+}
+
 .native-page-area {
     position: relative;
     background-size: cover;
     background: url(img/background/native.jpg) no-repeat top center;
+}
+
+.native-page-area .breadcrumb {
+    padding: 125px 0px 120px;
 }
 
 .partners-page-area {
@@ -2379,16 +2403,28 @@ span.users {
     background: url(img/background/partners.jpg) no-repeat top center;
 }
 
+.partners-page-area .breadcrumb {
+    padding: 135px 0px 135px;
+}
+
 .services-page-area {
     position: relative;
     background-size: cover;
     background: url(img/background/services.jpg) no-repeat top center;
 }
 
+.services-page-area .breadcrumb {
+    padding: 110px 0px 110px;
+}
+
 .contact-page-area {
     position: relative;
     background-size: cover;
     background: url(img/background/contact.jpg) no-repeat top center;
+}
+
+.contact-page-area .breadcrumb {
+    padding: 160px 0px 160px;
 }
 
 .breadcumb-overlay {
@@ -2401,7 +2437,6 @@ span.users {
 }
 
 .breadcrumb {
-    padding: 120px 0px 120px;
     background-color: transparent;
     margin-bottom: 0;
 }
@@ -2613,6 +2648,11 @@ span.users {
 
 .mission-text p {
     font-size: 16px;
+    user-select: none;
+}
+
+.mission-text h4 {
+    user-select: none;
 }
 
 .mission-about:hover .mission-icon i {
@@ -3554,10 +3594,25 @@ span.email-notes {
     color: #d9b332;
 }
 
+.single-icon hr {
+    margin: 14px auto;
+}
+
 .single-icon p {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 0px;
+    user-select: none;
+}
+
+.single-icon p a {
+    color: #5d6471;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.single-icon p a:hover {
+    color: #d9b332;
 }
 
 .contact-icon {
