@@ -427,7 +427,17 @@
     }
 
     .self-content h4 {
-        font-size: 25px;
+        font-size: 24px;
+    }
+
+    .self-content span {
+        font-size: 17px;
+        line-height: 22px;
+
+    }
+
+    .self-area:after {
+        background: rgba(6, 34, 65, 0.2) none repeat scroll 0 0;
     }
 
     .self-area {
