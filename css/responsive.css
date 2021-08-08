@@ -356,8 +356,8 @@
     }
 
     .slide-content .title2 {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
         padding: 0 0 35px;
     }
 
@@ -374,6 +374,18 @@
     .section-headline h2 {
         font-size: 25px;
         line-height: 30px;
+    }
+
+    .section-headline p {
+        max-width: 95%;
+    }
+
+    .area-padding-2 {
+        padding: 50px 0px 25px;
+    }
+
+    .section-headline .section-btn {
+        font-size: 15px;
     }
 
     .ready-btn {
@@ -397,6 +409,18 @@
     .banner-btn {
         padding: 11px 15px;
         font-size: 17px;
+    }
+
+    .self-content h4 {
+        font-size: 25px;
+    }
+
+    .self-area {
+        background-position: 60%;
+    }
+
+    .footer-area {
+        padding: 50px 0;
     }
 
     .footer-head h4 {
