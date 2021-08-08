@@ -255,6 +255,21 @@
         padding: 30px 10px 30px;
     }
 
+    .section-headline-icon {
+        width: 90%;
+    }
+
+    .grid {
+        display: inline-grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 150px 150px;
+    }
+
+    .grid > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -418,6 +433,30 @@
     .self-area {
         background-position: 60%;
     }
+
+    .section-headline-icon {
+        width: 90%;
+    }
+
+    .grid {
+        display: inline-grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 150px 150px;
+    }
+
+    .grid > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*.grid > div > img {*/
+    /*    height: 50%;*/
+    /*}*/
+
+    /*.grid > div::before {*/
+    /*    padding-bottom: 0;*/
+    /*}*/
 
     .footer-area {
         padding: 50px 0;
